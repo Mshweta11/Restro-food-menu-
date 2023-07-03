@@ -1,0 +1,74 @@
+*{
+  padding: 0px;
+  margin:0;
+  background-color: rgb(202, 227, 249);
+}
+.head {
+  height: 60px;
+  text-align: center;
+  margin-top: 12px;
+  color: rgb(45, 50, 100);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.item{
+  margin-left: 10px;
+  
+
+}
+
+.item button{
+  border-radius: 6px;
+  margin-left: 30px;
+  font-family: italic;
+    margin-top: 20px;
+    padding: 3px;
+    color: brown;
+    border-color: rgb(210, 151, 75);
+    background-color: rgb(255, 233, 67);
+    font-size: 25px;
+  }
+.food-card{
+  height: 130px;
+  margin-top: 50px;
+  background-color: rgb(194, 182, 182);
+  width: 340px;
+  margin-left: 30px;
+  margin-right: 40px;
+  box-shadow: rgba(252, 249, 249, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.food-card .food-img-left{
+  width: 40%;
+  height: 0px;
+  /* background-color: blue; */
+}
+
+.food-card .food-detail-right{
+  height: 129px;
+  width: 60%;
+  float: left;
+  margin-left: 134px;
+  /* background-color: rgb(166, 12, 12); */
+}
+.food-card .food-detail-right  h3{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 5px 5px 0px 20px;
+}
+.food-card .food-detail-right  h5{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px 5px 0px 20px;
+}
+.food-card .food-detail-right  span{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 0px 3px 0px 22px;
+}
+.food-card .food-detail-right .btn{
+  background-color: rgb(9, 155, 9);
+  margin-top: 3px;
+  margin-left: 18px;
+  border-radius: 3px;
+  color: aliceblue;
+  padding: 2px;
+  
+}
+
